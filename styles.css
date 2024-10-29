@@ -6,7 +6,6 @@
 header{
     display: flex;
     flex-direction: row;
-    margin: 0;
     height: 30%;
 }
 
@@ -61,4 +60,76 @@ header{
 .menu img {
     height: 2rem;
     gap: 1rem;
+}
+
+main{
+    background-color: #c4c4c4;
+    width: 50%;
+    height: 100%;
+
+}
+
+.main-bege {
+    background-color: beige;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    margin-left: 2rem;
+}
+
+
+.main-gray {
+    background-color: #c4c4c4;
+    height: 75%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+.linha {
+    width: 0.01rem;
+    height: 5rem;
+    background-color: black;
+    margin-left: 1rem;
+}
+
+.main-gray img{
+    height: 7rem;
+    width: auto;
+    margin-left: 1rem;
+}
+
+.text-main {
+    display: flex;
+    gap: 7rem;
+}
+
+/
+
+.text-main1 {
+    display: flex;
+    gap: 9rem;
+    flex-direction: row;
+}
+
+.texto-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+
+.total {
+    margin:0.5rem;
+    background-color: rgba(128, 128, 128, 0.158);
 }
