@@ -66,7 +66,6 @@ main{
     background-color: #c4c4c4;
     width: 50%;
     height: 100%;
-
 }
 
 .main-bege {
@@ -84,7 +83,7 @@ main{
 
 .main-gray {
     background-color: #c4c4c4;
-    height: 75%;
+    height: 100%;
     width: 95%;
     display: flex;
     flex-direction: row;
@@ -138,18 +137,20 @@ main{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    gap: 5rem;
+    gap: 2rem;
+    height: 15%;
 }
 
 .botão-cancelar {
     background-color: #e75757;
     width: 18rem;
-    height: 4rem;
+    height: 3rem;
     border-radius: 1.25rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .botão-cancelar img {
@@ -160,15 +161,104 @@ main{
 .confirmar-botão {
     background-color: #579ae7;
     width: 18rem;
-    height: 4rem;
+    height: 3rem;
     border-radius: 1.25rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .confirmar-botão img{
     height: 50%;
     margin: 1rem;
+}
+
+.milagre {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+aside {
+    width: 50%;
+    height: 100%;
+}
+
+.main-black {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto2 {
+    color: #e9e9e9;
+    font-size: 2rem;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.linha2 {
+    display: flex;
+    width: 29rem;
+    height: 0.075rem;
+    background-color: #f2efe5;
+}
+
+.sub-texto {
+    color: #e9e9e9;
+    font-size: 1.5rem;
+    text-align: start;
+    flex-direction: column;
+    margin-left: 4rem;
+    display: flex;
+    gap: 0.075rem;
+}
+
+.linha3 {
+    display: flex;
+    background-color: #f2efe5;
+    width: 8rem;
+    height: 0.075rem;
+}
+
+.pagamento-icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.pagamento-icones img {
+    height: auto;
+    width: 15%;
+}
+
+.foto-cartao{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    color: #e9e9e9;
+    align-items: flex-end;
+    text-align: end;
+    flex-direction: row;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+    margin-bottom: 1rem ;
 }
